@@ -1,42 +1,166 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment HTML & CSS</title>
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/960.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/fontawesome-free-5.9.0-web/css/fontawesome.min.css">
+        <link rel="stylesheet" href="fontawesome/fontawesome-free-5.9.0-web/css/solid.min.css">
+        <link rel="stylesheet" href="fontawesome/fontawesome-free-5.9.0-web/css/brands.min.css">
+    </head>
+    <body>
+        <header class="pageHeader">
+            <div class="title">
+                <h1 class="logo">My IMDb</h1>
+                <h4 class="logoDesc">My Favourtie Movies and Actors</h4>
+            </div>
+                <ul class="navbar">
+                    <li><a href="#"><i class="fas fa-home"></i></a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Actors</a></li>
+                    <li><a href="#">Trivia</a></li>
+                </ul>
+        </header>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+        <div class="content container_12">
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/avatar.jpg" alt="Avatar" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Avatar</h3>
+                        <p><b>Ratings: </b>82%</p>
+                        <p><strong>Plot: </strong>A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home. </p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/endgame.jpg" alt="Avengers Endgame" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Avengers Endgame</h3>
+                        <p><b>Ratings: </b> 94%</p>
+                        <p><strong>Plot : </strong>With the help of remaining allies, the Avengers assemble once more after Infinity War in order to reverse Thanos' actions and restore balance to the universe.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/titanic.jpg" alt="Titanic" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Titanic</h3>
+                        <p><b>Ratings: </b>89%</p>
+                        <p><strong>Plot : </strong>A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                <img src="img/starwarsforceawakens.jpg" alt="Star Wars: The Force Awakens" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Star Wars: The Force Awakens</h3>
+                        <p><b>Ratings: </b>92%</p>
+                        <p><strong>Plot : </strong>Defected stormtrooper Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                <img src="img/infinitywar.jpg" alt="Avengers Infinity War" class="moviePoster">
+                <div>
+                    <h3 class="movieTitle">Avengers Infinity War</h3>
+                    <p><b>Ratings: </b>85%</p>
+                    <p><strong>Plot : </strong>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>        
+                </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/jurrasicworld.jpg" alt="Jurassic World" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Jurassic World</h3>
+                        <p><b>Ratings: </b>72%</p>
+                        <p><strong>Plot : </strong>A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/avengers.jpeg" alt="The Avengers" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">The Avengers</h3>
+                        <p><b>Ratings: </b>92%</p>
+                        <p><strong>Plot : </strong>Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/furious7.jpg" alt="Furious 7" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Furious 7</h3>
+                        <p><b>Ratings: </b>81%</p>
+                        <p><strong>Plot : </strong>Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/ageofultron.jpg" alt="Avengers: Age of Ultron" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Avengers: Age of Ultron</h3>
+                        <p><b>Ratings: </b>75%</p>
+                        <p><strong>Plot : </strong>Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/blackpanther.jpg" alt="Black Panther" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Black Panther</h3>
+                        <p><b>Ratings: </b>97%</p>
+                        <p><strong>Plot : </strong>T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/deathlyhallows2.jpg" alt="Harry Potter and The Deathly Hallows - Part 2" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Harry Potter and The Deathly Hallows - Part 2</h3>
+                        <p><b>Ratings: </b>96%</p>
+                        <p><strong>Plot : </strong>Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.</p>        
+                    </div>
+                </div>
+            </section>
+            <section class="grid_3 card">
+                <div>
+                    <img src="img/lastjedi.jpeg" alt="Star Wars: The Last Jedi" class="moviePoster">
+                    <div>
+                        <h3 class="movieTitle">Star Wars: The Last Jedi</h3>
+                        <p><b>Ratings: </b>91%</p>
+                        <p><strong>Plot : </strong>Rey is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.</p>        
+                    </div>
+                </div>
+            </section>
+        </div>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <!-- Add your site or application content here 
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script> -->
-
-  <!--Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  
-  <!--
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
-</body>
-
+        <footer class="footerNote">
+            <div class="footer">
+                <div class="copyrights">
+                    <p>Copyrights &#169; reserved</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

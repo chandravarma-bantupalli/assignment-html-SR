@@ -1,0 +1,87 @@
+.pageHeader{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.title{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: yellow;
+    border-radius: 15%;
+    padding: 2px;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar{
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footerNote{
+    height: auto;
+    margin: auto;
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.social{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    margin: auto;
+    background-color: coral;
+    overflow: auto;
+    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.card{
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.moviePoster{
+    height: 200px;
+    width: 200px;
+}
+
+.movieTitle{
+    font-family: 'Noto Sans HK', sans-serif;
+    color: indigo;
+}
+
+.logoDesc{
+    font-family: 'Ubuntu', sans-serif;
+}
