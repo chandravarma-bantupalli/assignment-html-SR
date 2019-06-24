@@ -1,15 +1,25 @@
-.pageHeader{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+
+.head{
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+header{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
 }
 
 .title{
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-flow: row wrap;
@@ -19,7 +29,6 @@
 .logo{
     background-color: yellow;
     border-radius: 15%;
-    padding: 2px;
     font-family: 'Anton', sans-serif;
 }
 
@@ -31,41 +40,32 @@
     list-style: none;
 }
 
-.footerNote{
-    height: auto;
-    margin: auto;
-    background-color: darkgray;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer{
+.footNote{
+    background-color: lightgray;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .social{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 .content{
-    margin: auto;
     background-color: coral;
     overflow: auto;
     position: absolute;
-    top: 100px;
+    top: 120px;
     bottom: 50px;
     left: 0;
     right: 0;
 }
 
 .card{
-    width: 600px;
+    width: 400px;
     height: 400px;
     margin: 20px;
     padding: 20px;
