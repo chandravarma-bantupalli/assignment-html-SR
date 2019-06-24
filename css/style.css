@@ -3,19 +3,9 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-}
-
-header{
     overflow: hidden;
     position: sticky;
     top: 0;
-}
-
-footer{
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
 }
 
 .title{
@@ -45,6 +35,10 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
 }
 
 .social{
